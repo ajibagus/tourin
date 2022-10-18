@@ -32,7 +32,7 @@ class Poi extends ResourceController
         //$model = new ListWisataModel();
         $model = new ListPoiModel();
         $data = $model->getWhere(['kode_wisata' => $kode])->getResult();
-        $data2 = $model->where('kode_wisata', $kode)->find();
+        #$data2 = $model->where('kode_wisata', $kode)->find();
         if($data){
             return $this->respond($data);
         }else{

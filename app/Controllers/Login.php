@@ -24,7 +24,7 @@ class Login extends ResourceController
             'email' => 'valid_email',
         ];
         $response_valid_email = [
-            'code' =>'402',
+            'code' =>402,
             'message' => 'You have entered an invalid E-mail addres. Please try again',
             'id' => '',
             'username' => '',

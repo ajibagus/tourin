@@ -38,8 +38,10 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->post('register', 'Register::index');
 $routes->post('login', 'Login::index');
+$routes->post('rate', 'Rate::index');
 $routes->resource('wisata');
 $routes->resource('poi');
+$routes->resource('rekomendasi');
 //$routes->get('poi','Poi::index');
 
 /*
