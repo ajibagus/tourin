@@ -42,7 +42,8 @@ $routes->post('rate', 'Rate::index');
 $routes->resource('wisata');
 $routes->resource('poi');
 $routes->resource('rekomendasi');
-//$routes->get('poi','Poi::index');
+$routes->resource('edit');
+//$routes->put('edit/(:num)','Edit::update/$1');
 
 /*
  * --------------------------------------------------------------------

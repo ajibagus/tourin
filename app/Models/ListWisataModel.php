@@ -14,7 +14,7 @@ class ListWisataModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_wisata','wisata','deskripsi','lat','longi','url_image'];
+    protected $allowedFields    = ['id_wisata','wisata','alamat','deskripsi','lat','longi','url_image'];
 
     // Dates
     protected $useTimestamps = false;
